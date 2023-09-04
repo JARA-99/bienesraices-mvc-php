@@ -1,0 +1,60 @@
+.dark-mode {
+	background-color: darken($darkGrey, 10);
+	p {
+		color: $white;
+	}
+
+	a,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $grey;
+	}
+
+	.anuncio,
+	.summary-property {
+		background-color: $darkGrey;
+		border: 1px solid $grey;
+
+		.price {
+			color: $green;
+		}
+
+		.anuncio-icon {
+			filter: invert(100%);
+		}
+	}
+
+	.form {
+		label,
+		legend,
+		p {
+			color: $grey;
+		}
+
+		input:not([type='submit']),
+		textarea,
+		select {
+			background-color: $darkGrey;
+			border: 1px solid $darkGrey;
+			color: $white;
+		}
+	}
+
+	table.propiedades {
+		thead {
+			background-color: $green;
+			th {
+				color: $white;
+				padding: 2rem;
+			}
+		}
+
+		tbody {
+			color: $white;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.us {
+	padding: 3rem 0;
+
+	@include tablet {
+		@include grid(2, 2rem);
+	}
+}
+
+.text-content {
+	h4 {
+		font-weight: $fat;
+	}
+}
